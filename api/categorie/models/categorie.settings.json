@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Categorie"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "prodottos": {
+      "collection": "prodotto",
+      "via": "categories",
+      "dominant": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "categories"
+}
