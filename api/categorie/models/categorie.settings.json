@@ -1,6 +1,8 @@
 {
+  "connection": "default",
+  "collectionName": "categories",
   "info": {
-    "name": "Categorie"
+    "name": "Categoria"
   },
   "options": {
     "increments": true,
@@ -13,11 +15,9 @@
       "unique": true
     },
     "prodottos": {
-      "collection": "prodotto",
       "via": "categories",
+      "collection": "prodotto",
       "dominant": true
     }
-  },
-  "connection": "default",
-  "collectionName": "categories"
+  }
 }

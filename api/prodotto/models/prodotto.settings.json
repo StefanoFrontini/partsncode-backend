@@ -33,8 +33,11 @@
       "required": false
     },
     "categories": {
-      "via": "prodottos",
-      "collection": "categorie"
+      "collection": "categorie",
+      "via": "prodottos"
+    },
+    "applicazioni": {
+      "type": "text"
     }
   }
 }
