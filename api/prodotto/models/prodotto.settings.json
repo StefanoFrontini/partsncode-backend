@@ -38,6 +38,9 @@
     },
     "applicazioni": {
       "type": "text"
+    },
+    "prezzo": {
+      "type": "float"
     }
   }
 }
