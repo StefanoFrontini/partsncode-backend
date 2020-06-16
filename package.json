@@ -11,17 +11,17 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.0.0-beta.18.6",
-    "strapi-admin": "3.0.0-beta.18.6",
-    "strapi-connector-mongoose": "3.0.0-beta.18.6",
-    "strapi-plugin-content-manager": "3.0.0-beta.18.6",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.18.6",
-    "strapi-plugin-email": "3.0.0-beta.18.6",
-    "strapi-plugin-graphql": "^3.0.0-beta.18.6",
-    "strapi-plugin-upload": "3.0.0-beta.18.6",
-    "strapi-plugin-users-permissions": "3.0.0-beta.18.6",
-    "strapi-provider-upload-cloudinary": "^3.0.0-beta.18.6",
-    "strapi-utils": "3.0.0-beta.18.6"
+    "strapi": "3.0.2",
+    "strapi-admin": "3.0.2",
+    "strapi-connector-mongoose": "3.0.2",
+    "strapi-plugin-content-manager": "3.0.2",
+    "strapi-plugin-content-type-builder": "3.0.2",
+    "strapi-plugin-email": "3.0.2",
+    "strapi-plugin-graphql": "^3.0.2",
+    "strapi-plugin-upload": "3.0.2",
+    "strapi-plugin-users-permissions": "3.0.2",
+    "strapi-provider-upload-cloudinary": "^3.0.2",
+    "strapi-utils": "3.0.2"
   },
   "author": {
     "name": "Stefano Frontini"
@@ -30,7 +30,7 @@
     "uuid": "8fb7153c-0f4b-4f8d-8e3e-2393f0d02c8e"
   },
   "engines": {
-    "node": "13.13.0",
+    "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
